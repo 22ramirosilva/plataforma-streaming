@@ -1,0 +1,27 @@
+.popular {
+  /* display: flex; */
+  gap: 24px;
+  padding: 0 70px;
+}
+
+.genreTitle {
+  margin: 40px 0 30px;
+  padding: 0;
+  color: #fff;
+}
+
+/* body {
+    overflow: hidden;
+  } */
+
+  .react-multi-carousel-list {
+    padding: 20px 0;
+}
+
+
+  @media  (max-width: 733px) {
+    
+    .popular {
+      padding: 0 20px;
+    }
+  }

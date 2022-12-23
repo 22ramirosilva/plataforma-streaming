@@ -1,0 +1,93 @@
+footer {
+    height: 376px;
+    background-color: #0A070B;
+    border-top: 4px solid #4F4E50;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h6, p {
+    color: white;
+}
+
+.feedback {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.feedback > p:not(:first-child) {
+    border-left: 2px solid #4F4E50;
+}
+.feedback > p {
+    padding: 0 32px;
+}
+
+.logo2021 {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.follow {
+    flex: 1 1;
+    display: flex;
+    align-items: center;
+}
+.follow p {
+    color: #807E81;
+}
+
+.fb-logo {
+    padding: 0 32px;
+    border-right: 2px solid #4F4E50;
+}
+.ig-logo {
+    padding: 0 32px;
+}
+
+
+
+
+
+@media  (max-width: 733px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        gap: 10%;
+        position: relative;
+    }
+
+    .logo2021 {
+        position: absolute;
+        justify-content: space-between;
+    }
+    .logo2021 img ,
+    .logo2021 h6 {
+        padding: 30px;
+    }
+    .logo2021 img {
+        transform: scale(0.75);
+    }
+
+    .feedback {
+        flex: 0;
+        width: 100%;
+        justify-content: center;
+        transform: scale(0.9);
+    }
+    .feedback > p {
+        padding: 0 35px;
+    }
+
+    .follow {
+        flex: 0;
+        transform: scale(0.75);
+    }
+   
+  }
+  
